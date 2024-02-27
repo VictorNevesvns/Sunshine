@@ -1,8 +1,8 @@
 # Sunshine
 
-Sunshine Gestões
+# Sunshine Gestões
 
-- Equipe;
+# Equipe
 
 - Victor Neves RA: 2222102088
 - Vinicius Barbosa RA: 2222101639
