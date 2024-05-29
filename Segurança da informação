@@ -1,0 +1,70 @@
+# Segurança da informação
+
+Implementação de Medidas de Segurança para a Empresa de Autopeças
+
+Após avaliarmos os riscos de segurança, é hora de agir para proteger nossos sistemas e dados na empresa de autopeças. 
+Vamos implementar algumas medidas importantes que ajudarão a manter nossas informações seguras e nossos negócios protegidos.
+
+Políticas de Controle de Acesso
+
+Políticas Claras: 
+Por exemplo, podemos estabelecer que apenas funcionários de determinados departamentos tenham acesso a informações financeiras confidenciais. Além disso, 
+podemos definir que o acesso remoto aos sistemas da empresa só é permitido por meio de uma conexão VPN segura.
+
+Identificação de Usuários: 
+Utilizamos métodos robustos de identificação de usuários, como a verificação em duas etapas. Por exemplo, ao acessar um sistema corporativo, 
+os funcionários precisam inserir sua senha e, em seguida, confirmar sua identidade por meio de um aplicativo de autenticação no celular.
+
+Controle de Acesso Adequado: 
+Garantimos que cada usuário tenha acesso apenas às informações e sistemas necessários para realizar suas tarefas. Por exemplo, 
+um funcionário de recursos humanos pode ter acesso aos dados dos funcionários, mas não às informações financeiras da empresa.
+
+
+Monitoramento: 
+Mantemos um monitoramento contínuo das atividades de acesso aos sistemas. Por exemplo, registramos quem acessou determinado arquivo, 
+em que horário e por quanto tempo. Isso nos permite identificar padrões de acesso suspeitos e investigar qualquer atividade não autorizada.
+
+Configurando Sistemas de Detecção e Prevenção de Ataques
+
+Escolhendo as Ferramentas Certas: 
+Optar por um software de detecção de intrusos de rede que monitore o tráfego em tempo real e bloqueie automaticamente endereços IP suspeitos que tentam acessar nossos sistemas.
+
+Personalizando para Nossas Necessidades: 
+Podemos personalizar as configurações de alerta do nosso sistema de detecção de intrusos para nos notificar imediatamente 
+caso haja um aumento repentino no tráfego de rede ou se um usuário tente acessar uma área restrita sem autorização.
+
+Trabalhando Juntos: 
+Integraremos nosso software de detecção de intrusos com nosso sistema de gerenciamento de eventos de segurança (SIEM) para correlacionar eventos de segurança em toda a rede. 
+Isso nos permitirá identificar ameaças de forma mais eficaz e responder rapidamente a incidentes de segurança.
+
+Mantendo Tudo Atualizado: 
+Manteremos regularmente nossas ferramentas de segurança, como firewalls e software antivírus, atualizadas com as últimas definições de ameaças e patches de segurança. 
+Além disso, monitoraremos as notificações de segurança de fornecedores confiáveis para estar cientes de quaisquer novas vulnerabilidades que possam afetar nossos sistemas.
+
+Treinando Nossa Equipe
+
+Conscientização sobre Segurança: 
+Realizaremos sessões de treinamento mensais para toda a equipe, abordando tópicos como segurança de senhas, 
+reconhecimento de e-mails de phishing e práticas seguras de navegação na internet. Além disso, enviaremos lembretes regulares por e-mail sobre as últimas ameaças de segurança e como evitá-las.
+
+Praticando a Detecção de Phishing:
+Realizaremos simulações de phishing trimestralmente, enviando e-mails simulados para os funcionários e rastreando quem clica nos links ou fornece informações pessoais. 
+Os funcionários que caírem nos golpes receberão treinamento adicional e dicas sobre como reconhecer e evitar futuros ataques de phishing.
+
+Entendendo Nossas Políticas: 
+Criaremos um manual de segurança da informação que detalha nossas políticas de segurança, incluindo políticas de senhas, 
+acesso a dados confidenciais e uso de dispositivos da empresa. Todos os funcionários serão obrigados a ler o manual e assinar um termo de compromisso, 
+garantindo que entendam e concordem em seguir as políticas. Além disso, realizaremos sessões de treinamento anuais para reforçar essas políticas e esclarecer quaisquer dúvidas.
+
+Mantendo-nos Atualizados e Adaptáveis
+
+Avaliando Regularmente: 
+Realizaremos revisões trimestrais dos logs de segurança para identificar atividades incomuns, como tentativas de acesso não autorizadas. Além disso, 
+conduziremos análises de vulnerabilidades em nossos sistemas para identificar e corrigir possíveis falhas de segurança. Se necessário, 
+realizaremos testes de penetração para simular ataques cibernéticos e avaliar a eficácia de nossas medidas de segurança.
+
+
+
+Acompanhando as Tendências de Segurança: 
+Manteremos contato com fornecedores de segurança e participaremos de conferências e webinars sobre segurança cibernética para ficar atualizados sobre as últimas tendências e ameaças. 
+Por exemplo, se houver um aumento nos ataques de ransomware em empresas semelhantes à nossa, revisaremos nossas políticas de backup e recuperação de dados para garantir que estejamos preparados para enfrentar essa ameaça específica.
