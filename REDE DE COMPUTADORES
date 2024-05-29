@@ -1,0 +1,83 @@
+# Rede de computadores
+
+Departamentos Autopeças V3:
+•	Recepção e Atendimento ao Cliente
+•	Vendas e Marketing
+•	Administração e Finanças
+•	Almoxarifado e Logística
+•	Setor de Compras
+•	TI e Suporte Técnico
+•	Produção/Oficina
+
+Equipamentos por Departamento:
+
+Recepção e Atendimento ao Cliente:
+•	Computadores com sistema de gestão de clientes (CRM)
+•	Telefones e sistema de PABX
+•	Móveis de recepção (balcões, cadeiras, sofás)
+•	Impressora multifuncional para imprimir e digitalizar documentos
+
+Vendas e Marketing:
+•	Computadores com acesso a ferramentas de vendas e marketing digital
+•	Smartphones e/ou tablets para vendas externas e apresentações
+•	Equipamento para criação de material promocional, como impressoras de alta qualidade
+
+
+
+Administração e Finanças:
+•	Computadores com software financeiro (ERP)
+•	Cofres e armários seguros para armazenamento de documentos financeiros
+•	Calculadoras e outros materiais de escritório
+
+Almoxarifado e Logística:
+•	Sistemas de gestão de inventário (computadores e leitores de código de barras)
+•	Empilhadeiras e carrinhos para movimentação de mercadorias
+•	Prateleiras e sistemas de armazenamento para organização do estoque
+
+Setor de Compras:
+•	Computadores com sistemas de gestão de compras e fornecedores
+•	Telefones para contato com fornecedores
+•	Arquivos para armazenamento de contratos e documentação de compras
+
+TI e Suporte Técnico:
+•	Servidores e equipamentos de rede (switches, roteadores, firewall)
+•	Computadores e ferramentas para manutenção e suporte técnico
+•	Software de gestão de tickets de suporte
+
+Produção/Oficina:
+•	Ferramentas manuais e automáticas para montagem e reparo de peças
+•	Bancadas de trabalho e equipamentos de solda
+•	Máquinas específicas para testes de qualidade e manutenção
+
+Classe de Rede
+•	Classe de rede C (192.168.0.0 a 192.168.255.255)
+
+
+Design de Esquema de Endereçamento IP 
+
+Recepção e Atendimento ao Cliente: 192.168.0.0/28
+•	Faixa de IPs: 192.168.0.1 a 192.168.0.14 (14 hosts utilizáveis)
+Vendas e Marketing: 192.168.0.16/28
+•	Faixa de IPs: 192.168.0.17 a 192.168.0.30 (14 hosts utilizáveis)
+Administração e Finanças: 192.168.0.32/27
+•	Faixa de IPs: 192.168.0.33 a 192.168.0.62 (30 hosts utilizáveis)
+Almoxarifado e Logística: 192.168.0.64/27
+•	Faixa de IPs: 192.168.0.65 a 192.168.0.94 (30 hosts utilizáveis)
+Setor de Compras: 192.168.0.96/28
+•	Faixa de IPs: 192.168.0.97 a 192.168.0.110 (14 hosts utilizáveis)
+TI e Suporte Técnico: 192.168.0.112/28
+•	Faixa de IPs: 192.168.0.113 a 192.168.0.126 (14 hosts utilizáveis)
+Produção/Oficina: 192.168.0.192/26
+•	Faixa de IPs: 192.168.0.193 a 192.168.0.254 (62 hosts utilizáveis)
+
+Configuração Padrão de Rede
+
+Gateway de Rede: 
+Geralmente, o primeiro IP utilizável em cada segmento, por exemplo, 192.168.0.1 para Recepção.
+Máscara de Sub-rede: 
+Conforme o esquema acima, por exemplo, 255.255.255.240 para um /28.
+DNS Servers: 
+Use servidores DNS internos se disponíveis, ou servidores DNS públicos confiáveis como os do Google (8.8.8.8 e 8.8.4.4).
+
+DHCP: 
+Configurar um servidor DHCP para automatizar a distribuição de IPs, se preferível, definindo o escopo de acordo com os segmentos acima.
